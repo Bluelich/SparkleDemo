@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sparkle Test App Changelog</title>
+    <description>Most recent changes with links to updates.</description>
+    <language>zh-CN</language>
+      <item>
+        <title>Version 2.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
+              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+            </ul>
+          ]]>
+        </description>
+        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
+        <enclosure url="https://raw.githubusercontent.com/Bluelich/SparkleDemo/dev/files/SparkleDemo.app.zip" sparkle:version="2.0" length="28578313" type="application/octet-stream" sparkle:dsaSignature="MEQCIBt2KFLGc6I4EWpjDqAhcmwpu5IDy6kkzus43Iq2U30FAiB3CeTwo66zAHZtCwYY7262wBY+oT7VByOhef7m9bAFXw==" />
+      </item>
+  </channel>
+</rss>

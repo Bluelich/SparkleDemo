@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		569A8A16611D3691FAFD078D /* Pods_SparkleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95ED99B09E0E404232127448 /* Pods_SparkleDemo.framework */; };
+		B4B7037820F9E38C007FB117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B7037720F9E38C007FB117 /* AppDelegate.m */; };
+		B4B7037B20F9E38C007FB117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B7037A20F9E38C007FB117 /* ViewController.m */; };
+		B4B7037D20F9E38D007FB117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B7037C20F9E38D007FB117 /* Assets.xcassets */; };
+		B4B7038020F9E38D007FB117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B7037E20F9E38D007FB117 /* Main.storyboard */; };
+		B4B7038320F9E38D007FB117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B7038220F9E38D007FB117 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45B9D39C6015BC9E37E67344 /* Pods-SparkleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparkleDemo/Pods-SparkleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		85BF5FDC663973F096DB76F4 /* Pods-SparkleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparkleDemo/Pods-SparkleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		95ED99B09E0E404232127448 /* Pods_SparkleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B7037320F9E38C007FB117 /* SparkleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B7037620F9E38C007FB117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4B7037720F9E38C007FB117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4B7037920F9E38C007FB117 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4B7037A20F9E38C007FB117 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4B7037C20F9E38D007FB117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4B7037F20F9E38D007FB117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4B7038120F9E38D007FB117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B7038220F9E38D007FB117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B7038420F9E38D007FB117 /* SparkleDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkleDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B7037020F9E38C007FB117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569A8A16611D3691FAFD078D /* Pods_SparkleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E1E8A71EDD814060B08B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95ED99B09E0E404232127448 /* Pods_SparkleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B7036A20F9E38C007FB117 = {
+			isa = PBXGroup;
+			children = (
+				B4B7037520F9E38C007FB117 /* SparkleDemo */,
+				B4B7037420F9E38C007FB117 /* Products */,
+				F0877A8156E4007395F3B1A8 /* Pods */,
+				11E1E8A71EDD814060B08B1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B7037420F9E38C007FB117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7037320F9E38C007FB117 /* SparkleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B7037520F9E38C007FB117 /* SparkleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7037620F9E38C007FB117 /* AppDelegate.h */,
+				B4B7037720F9E38C007FB117 /* AppDelegate.m */,
+				B4B7037920F9E38C007FB117 /* ViewController.h */,
+				B4B7037A20F9E38C007FB117 /* ViewController.m */,
+				B4B7037C20F9E38D007FB117 /* Assets.xcassets */,
+				B4B7037E20F9E38D007FB117 /* Main.storyboard */,
+				B4B7038120F9E38D007FB117 /* Info.plist */,
+				B4B7038220F9E38D007FB117 /* main.m */,
+				B4B7038420F9E38D007FB117 /* SparkleDemo.entitlements */,
+			);
+			path = SparkleDemo;
+			sourceTree = "<group>";
+		};
+		F0877A8156E4007395F3B1A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BF5FDC663973F096DB76F4 /* Pods-SparkleDemo.debug.xcconfig */,
+				45B9D39C6015BC9E37E67344 /* Pods-SparkleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B7037220F9E38C007FB117 /* SparkleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B7038720F9E38D007FB117 /* Build configuration list for PBXNativeTarget "SparkleDemo" */;
+			buildPhases = (
+				FC61AD4A86AB54B98BE23E94 /* [CP] Check Pods Manifest.lock */,
+				B4B7036F20F9E38C007FB117 /* Sources */,
+				B4B7037020F9E38C007FB117 /* Frameworks */,
+				B4B7037120F9E38C007FB117 /* Resources */,
+				EACD82786B4B3CC762C7F118 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkleDemo;
+			productName = SparkleDemo;
+			productReference = B4B7037320F9E38C007FB117 /* SparkleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B7036B20F9E38C007FB117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Bluelich;
+				TargetAttributes = {
+					B4B7037220F9E38C007FB117 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B4B7036E20F9E38C007FB117 /* Build configuration list for PBXProject "SparkleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4B7036A20F9E38C007FB117;
+			productRefGroup = B4B7037420F9E38C007FB117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B7037220F9E38C007FB117 /* SparkleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B7037120F9E38C007FB117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B7037D20F9E38D007FB117 /* Assets.xcassets in Resources */,
+				B4B7038020F9E38D007FB117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EACD82786B4B3CC762C7F118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SparkleDemo/Pods-SparkleDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparkleDemo/Pods-SparkleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC61AD4A86AB54B98BE23E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B7036F20F9E38C007FB117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B7037B20F9E38C007FB117 /* ViewController.m in Sources */,
+				B4B7038320F9E38D007FB117 /* main.m in Sources */,
+				B4B7037820F9E38C007FB117 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4B7037E20F9E38D007FB117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B7037F20F9E38D007FB117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B7038520F9E38D007FB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4B7038620F9E38D007FB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4B7038820F9E38D007FB117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BF5FDC663973F096DB76F4 /* Pods-SparkleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SparkleDemo/SparkleDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K85X9AAEPA;
+				INFOPLIST_FILE = SparkleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluelich.SparkleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B4B7038920F9E38D007FB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B9D39C6015BC9E37E67344 /* Pods-SparkleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SparkleDemo/SparkleDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K85X9AAEPA;
+				INFOPLIST_FILE = SparkleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluelich.SparkleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B7036E20F9E38C007FB117 /* Build configuration list for PBXProject "SparkleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B7038520F9E38D007FB117 /* Debug */,
+				B4B7038620F9E38D007FB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B7038720F9E38D007FB117 /* Build configuration list for PBXNativeTarget "SparkleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B7038820F9E38D007FB117 /* Debug */,
+				B4B7038920F9E38D007FB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B7036B20F9E38C007FB117 /* Project object */;
+}
